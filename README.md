@@ -1,62 +1,294 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Realestate App using VILT
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A modern full-stack web application starter template built with Vue.js, Inertia.js, Laravel, and Tailwind CSS (VILT Stack). Perfect for building reactive single-page applications with a powerful backend and modern frontend capabilities.
 
-## About Laravel
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PHP 8.2+](https://img.shields.io/badge/PHP-8.2+-777BB4.svg?logo=php&logoColor=white)](https://php.net)
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🎯 Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project provides a clean, modern starting point for building full-stack web applications using the VILT stack. It combines Laravel's robust backend framework with Vue.js's reactive frontend capabilities, connected seamlessly through Inertia.js for a true SPA experience without API complexity, and styled with Tailwind CSS for rapid UI development.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Features
 
-## Learning Laravel
+-   🔧 **Laravel 12** - Latest Laravel framework with modern PHP features
+-   ⚡ **Vue.js 3** - Composition API and reactive frontend
+-   🔗 **Inertia.js** - Modern monolith architecture
+-   🎨 **Tailwind CSS 4** - Utility-first CSS framework
+-   ⚡ **Vite 6** - Lightning-fast build tool
+-   🧪 **Pest Testing** - Elegant testing framework
+-   🐳 **Laravel Sail** - Docker development environment
+-   🔄 **Hot Module Replacement** - Instant development feedback
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🛠️ Tech Stack
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Backend
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
 
-## Laravel Sponsors
+### Frontend
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Inertia.js](https://img.shields.io/badge/Inertia.js-2-9553E9?style=for-the-badge&logoColor=white)
 
-### Premium Partners
+### Styling & Build Tools
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-## Contributing
+### Development Tools
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pest](https://img.shields.io/badge/Pest-3.8+-6366F1?style=for-the-badge&logo=php&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## Code of Conduct
+### Additional Tools
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Axios](https://img.shields.io/badge/Axios-1.8.2-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Laravel Pint](https://img.shields.io/badge/Laravel_Pint-1.13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-## Security Vulnerabilities
+## 🚦 Quick Start
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Prerequisites
 
-## License
+-   🐘 **PHP 8.2** or higher
+-   🎼 **Composer** 2.0+
+-   📦 **Node.js 18** or higher
+-   🗄️ **Database** (MySQL, PostgreSQL, or SQLite)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# realstate
+### Installation
+
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/jericrealubit/vilt-starter.git
+    cd vilt-starter
+    ```
+
+2. **Install PHP dependencies**
+
+    ```bash
+    composer install
+    ```
+
+3. **Install Node dependencies**
+
+    ```bash
+    npm install
+    ```
+
+4. **Environment setup**
+
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+5. **Database setup**
+
+    ```bash
+    touch database/database.sqlite  # For SQLite
+    php artisan migrate
+    ```
+
+6. **Start development servers**
+
+    ```bash
+    composer run dev
+    ```
+
+    This runs all services concurrently:
+
+    - 🌐 Laravel server on `http://localhost:8000`
+    - 🔄 Queue worker for background jobs
+    - ⚡ Vite dev server with HMR
+
+### 🐳 Docker Setup (Laravel Sail)
+
+```bash
+# Start with Sail
+./vendor/bin/sail up -d
+
+# Install dependencies inside container
+./vendor/bin/sail composer install
+./vendor/bin/sail npm install
+
+# Run migrations
+./vendor/bin/sail artisan migrate
+
+# Start dev servers
+./vendor/bin/sail npm run dev
+```
+
+## 📖 Usage Examples
+
+### Creating a New Page
+
+1. **Create a Laravel route** (`routes/web.php`):
+
+    ```php
+    Route::get('/dashboard', function () {
+        return Inertia::render('Dashboard', [
+            'user' => auth()->user(),
+            'stats' => ['visitors' => 1234]
+        ]);
+    });
+    ```
+
+2. **Create Vue component** (`resources/js/Pages/Dashboard.vue`):
+
+    ```vue
+    <template>
+        <div class="bg-white rounded-lg shadow p-6">
+            <h1 class="text-2xl font-bold text-gray-900">
+                Welcome, {{ user.name }}!
+            </h1>
+            <p class="mt-2 text-gray-600">
+                You have {{ stats.visitors }} visitors today.
+            </p>
+        </div>
+    </template>
+
+    <script setup>
+    defineProps({
+        user: Object,
+        stats: Object,
+    });
+    </script>
+    ```
+
+### Making API Requests
+
+```javascript
+import { router } from "@inertiajs/vue3";
+
+// Navigate with data
+router.post("/users", {
+    name: "John Doe",
+    email: "john@example.com",
+});
+
+// Or using axios for traditional AJAX
+import axios from "axios";
+
+const response = await axios.get("/api/users");
+```
+
+## 📁 Project Structure
+
+```
+vilt-starter/
+├── 📁 app/                    # Laravel application logic
+│   ├── 📁 Http/Controllers/   # Request handlers
+│   ├── 📁 Models/            # Eloquent models
+│   └── 📁 Providers/         # Service providers
+├── 📁 database/              # Database files
+│   ├── 📁 migrations/        # Database migrations
+│   └── 📁 seeders/          # Database seeders
+├── 📁 resources/             # Frontend resources
+│   ├── 📁 js/               # Vue.js components
+│   │   ├── 📁 Pages/        # Inertia pages
+│   │   ├── 📁 Components/   # Reusable components
+│   │   └── 📄 app.js        # Main JS entry
+│   └── 📁 css/              # Stylesheets
+├── 📁 routes/                # Application routes
+│   ├── 📄 web.php           # Web routes
+│   └── 📄 api.php           # API routes
+├── 📁 tests/                 # Pest tests
+├── 📄 package.json          # Node dependencies
+├── 📄 composer.json         # PHP dependencies
+├── 📄 vite.config.js        # Vite configuration
+└── 📄 tailwind.config.js    # Tailwind configuration
+```
+
+## 🧪 Testing
+
+Run the test suite using Pest:
+
+```bash
+# Run all tests
+composer run test
+
+# Run specific test file
+php artisan test tests/Feature/ExampleTest.php
+
+# Run with coverage
+php artisan test --coverage
+```
+
+## 🎨 Available Scripts
+
+### Composer Scripts
+
+```bash
+composer run dev        # Start all development servers
+composer run test       # Run test suite
+```
+
+### NPM Scripts
+
+```bash
+npm run dev            # Start Vite development server
+npm run build          # Build for production
+```
+
+### Artisan Commands
+
+```bash
+php artisan serve      # Start Laravel server
+php artisan queue:work # Start queue worker
+php artisan migrate    # Run migrations
+php artisan tinker     # Laravel REPL
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. 💾 Commit your changes (`git commit -m 'Add amazing feature'`)
+4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
+5. 🔄 Open a Pull Request
+
+## 📚 Documentation
+
+-   📖 [Laravel Documentation](https://laravel.com/docs)
+-   ⚡ [Vue.js Guide](https://vuejs.org/guide/)
+-   🔗 [Inertia.js Documentation](https://inertiajs.com/)
+-   🎨 [Tailwind CSS Docs](https://tailwindcss.com/docs)
+-   ⚡ [Vite Documentation](https://vitejs.dev/)
+
+## 🐛 Issues & Support
+
+If you encounter any issues or have questions:
+
+-   🐛 [Report bugs](https://github.com/jericrealubit/vilt-starter/issues)
+-   💬 [Discussions](https://github.com/jericrealubit/vilt-starter/discussions)
+-   📧 Contact: [your-email@example.com]
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+-   🔥 [Laravel Team](https://laravel.com/team)
+-   💚 [Vue.js Core Team](https://vuejs.org/about/team.html)
+-   🔗 [Inertia.js Creator](https://twitter.com/reinink)
+-   🎨 [Tailwind CSS Team](https://tailwindcss.com/team)
+
+---
+
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+Made with ❤️ by [Jeric Realubit](https://github.com/jericrealubit)
+
+</div>

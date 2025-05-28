@@ -3,6 +3,6 @@ import { Link } from "@inertiajs/vue3";
 </script>
 
 <template>
-    <div>Index</div>
-    <Link href="/hello">Show Page</Link>
+    <div>Show</div>
+    <Link href="/">Main Page</Link>
 </template>

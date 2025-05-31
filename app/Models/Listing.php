@@ -16,6 +16,7 @@ class Listing extends Model
     protected $fillable = [
         'beds', 'baths', 'area', 'city', 'code', 'street', 'street_nr', 'price'
     ];
+
     protected $sortable = [
         'price', 'created_at'
     ];
@@ -28,15 +29,15 @@ class Listing extends Model
         );
     }
 
-    public function images(): HasMany
-    {
-        return $this->hasMany(ListingImage::class);
-    }
+    // public function images(): HasMany
+    // {
+    //     return $this->hasMany(ListingImage::class);
+    // }
 
-    public function offers(): HasMany
-    {
-        return $this->hasMany(Offer::class, 'listing_id');
-    }
+    // public function offers(): HasMany
+    // {
+    //     return $this->hasMany(Offer::class, 'listing_id');
+    // }
 
     public function scopeMostRecent(Builder $query): Builder
     {

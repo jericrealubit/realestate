@@ -2,18 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Inertia\Inertia;
 
 class IndexController extends Controller
 {
     public function index() {
-        return inertia('Index/Index', [
+        return Inertia::render('Index/Index', [
             'message' => 'Hello from Laravel'
         ]);
     }
 
     public function show() {
-        return inertia('Index/Show');
+        return Inertia::render('Index/Show');
     }
 }

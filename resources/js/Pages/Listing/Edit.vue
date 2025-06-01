@@ -16,7 +16,7 @@ const form = useForm({
     price: props.listing.price,
 });
 
-const update = () => form.put(`/listing/${props.listing.id}`);
+const update = () => form.put(route("listing.update", props.listing.id));
 </script>
 
 <template>
@@ -53,7 +53,7 @@ const update = () => form.put(`/listing/${props.listing.id}`);
             </div>
 
             <div>
-                <label>Street</label>
+                <label class="mr-2">Street</label>
                 <input v-model="form.street" type="text" />
                 <div v-if="form.errors.street">{{ form.errors.street }}</div>
             </div>

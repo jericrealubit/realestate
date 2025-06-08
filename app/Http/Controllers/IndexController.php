@@ -3,10 +3,14 @@
 namespace App\Http\Controllers;
 
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Auth;
 
 class IndexController extends Controller
 {
     public function index() {
+
+        //dd(Auth::user());
+
         return Inertia::render('Index/Index', [
             'message' => 'Hello from Laravel'
         ]);

@@ -18,11 +18,22 @@ class AuthController extends Controller
             'email' => 'required|string|email',
             'password' => 'required|string'
         ]), true)) {
-            throw ValidationException::withMessages();
+            throw ValidationException::withMessages([
+                'email' => 'Autjemtication failed'
+            ]);
         }
+
+        $request->session()->regenerate();
+
+        return redirect()->intended("/listing");
     }
 
-    public function destroy() {
+    public function destroy(Request $request) {
+        Auth::logout();
 
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect()->route('listing.index');
     }
 }

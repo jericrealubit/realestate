@@ -1,5 +1,6 @@
 <script setup>
 import { useForm, Link } from "@inertiajs/vue3";
+import ErrorMessage from "@/Components/ErrorMessage.vue";
 
 const form = useForm({
     email: null,
@@ -20,9 +21,7 @@ const login = () => form.post(route("login.store"));
                     type="text"
                     class="input"
                 />
-                <div v-if="form.errors.email" class="input-error">
-                    {{ form.errors.email }}
-                </div>
+                <ErrorMessage :message="form.errors.email" />
             </div>
             <div class="mt-4">
                 <label for="password" class="label">Password</label>
@@ -32,9 +31,7 @@ const login = () => form.post(route("login.store"));
                     type="password"
                     class="input"
                 />
-                <div v-if="form.errors.password" class="input-error">
-                    {{ form.errors.password }}
-                </div>
+                <ErrorMessage :message="form.errors.password" />
             </div>
             <div class="mt-4">
                 <button class="btn-primary w-full" type="submit">Login</button>

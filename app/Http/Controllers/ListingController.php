@@ -5,9 +5,19 @@ namespace App\Http\Controllers;
 use Inertia\Inertia;
 use App\Models\Listing;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+
 
 class ListingController extends Controller
 {
+    //use AuthorizesRequests;
+
+    public function __construct()
+    {
+        $this->authorizeResource(Listing::class, 'listing');
+    }
+
     /**
      * Display a listing of the resource.
      */
@@ -31,7 +41,7 @@ class ListingController extends Controller
      */
     public function store(Request $request)
     {
-        Listing::create(
+        $request->user()->listings()->create(
             $request->validate([
                 'beds' => 'required|integer|min:0|max:20',
                 'baths' => 'required|integer|min:0|max:20',
@@ -52,6 +62,10 @@ class ListingController extends Controller
      */
     public function show(Listing $listing)
     {
+        // if (Auth::user()->cannot('view', $listing)) {
+        //     abort(403);
+        // }
+
         return Inertia::render('Listing/Show', [
             'listing' => $listing
         ]);

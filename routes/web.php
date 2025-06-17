@@ -10,7 +10,7 @@ use App\Http\Controllers\UserAccountController;
 Route::get('/', [IndexController::class, 'index']);
 Route::get('/hello', [IndexController::class, 'show'])->middleware('auth');
 
-Route::resource('listing', ListingController::class)->only(['create','store','edit','update','destroy'])->middleware('auth');
+Route::resource('listing', ListingController::class)->only(['create','store','edit','update'])->middleware('auth');
 
 Route::resource('listing', ListingController::class)->except(['create','store','edit','update','destroy']);
 
@@ -23,5 +23,5 @@ Route::resource('user-account', UserAccountController::class)->only(['create', '
 Route::resource('user-account', UserAccountController::class)->only(['create','store']);
 
 Route::prefix('realtor')->name('realtor.')->middleware('auth')->group(function () {
-  Route::resource('listing', RealtorListingController::class);
+  Route::resource('listing', RealtorListingController::class)->only(['index','destroy']);
 });

@@ -10,6 +10,12 @@ A modern full-stack web application starter template built with Vue.js, Inertia.
 
 This project provides a clean, modern starting point for building full-stack web applications using the VILT stack. It combines Laravel's robust backend framework with Vue.js's reactive frontend capabilities, connected seamlessly through Inertia.js for a true SPA experience without API complexity, and styled with Tailwind CSS for rapid UI development.
 
+## 🖼️ Screenshots
+
+| Desktop                                              | Mobile                                              |
+| ---------------------------------------------------- | --------------------------------------------------- |
+| <img src="docs/screenshots/desktop.png" width="420"> | <img src="docs/screenshots/mobile.png" width="200"> |
+
 ## ✨ Features
 
 -   🔧 **Laravel 12** - Latest Laravel framework with modern PHP features
